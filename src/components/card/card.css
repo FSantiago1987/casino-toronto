@@ -1,0 +1,31 @@
+.Card{
+    width: 100px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.Card > img{
+    height: 100%;
+    width: 100%;
+}
+
+.number-top{
+    text-align: start;
+    padding: 2px 10px;
+    font-size: 15px;
+}
+
+.number-bottom{
+    text-align: end;
+    padding: 2px 10px;
+    font-size: 15px;
+}
+
+.suit-middle{
+    height: 60px;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}

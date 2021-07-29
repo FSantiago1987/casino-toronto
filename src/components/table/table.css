@@ -1,0 +1,37 @@
+.Table{
+    background-color: rgb(201, 117, 22);
+    width: 850px;
+    height: 550px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.Field{
+    background-color: #155843;
+    width: 800px;
+    height: 500px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.GameField{
+    display: flex;
+    justify-content:space-around;
+    min-height: 150px;
+}
+
+.ScoreField{
+    display: flex;
+    justify-content:space-around;
+    min-height: 50px;
+}
+
+.result{
+    min-height: 30px;
+}
