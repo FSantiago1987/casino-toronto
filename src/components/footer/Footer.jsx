@@ -1,7 +1,7 @@
 import { faEnvelope, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import logo from '../../assets/images/logoCasino2.png';
+import logo from '../../assets/images/logoCasino.png';
 import './footer.css';
 
 function Footer() {
@@ -10,11 +10,6 @@ function Footer() {
       <div className="innerContainer">
           <div className="aboutContainer">
               <img src={logo} alt="logo footer" />
-              <p>
-              YourDrive is a Car renting and selling company located in many
-            countries across the world which has high quality cars and top rated
-            service. 
-              </p>
           </div>
           <div className="sectionContainer">
               <h3>Company</h3>

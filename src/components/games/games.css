@@ -1,0 +1,29 @@
+.Games{
+    max-width: 1920px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Games > h2{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    --tw-text-opacity: 1;
+    color: rgba(0, 0, 0, var(--tw-text-opacity));
+    font-weight: 800;
+}
+
+.ServicesContainer{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+}

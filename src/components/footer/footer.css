@@ -27,7 +27,8 @@
 
 .aboutContainer > img {
   width: auto;
-  height: 85px;
+  height: 200px;
+  margin-left: 20px;
 }
 
 .aboutContainer > p {
@@ -131,4 +132,5 @@
   font-size: 12px;
   --tw-text-opacity: 1;
   color: rgba(209, 213, 219, var(--tw-text-opacity));
+  margin-left: 10px;
 }
