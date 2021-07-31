@@ -1,0 +1,9 @@
+.Header{
+    width: 100%;
+    min-height: 919px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../../assets/images/casino.jpeg) no-repeat center center; 
+    background-size: cover;
+}

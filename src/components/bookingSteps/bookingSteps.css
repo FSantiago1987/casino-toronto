@@ -1,0 +1,106 @@
+.BookingSteps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  width: 100%;
+}
+
+.BookingSteps > h2 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
+  font-weight: 800;
+}
+
+.BookingSteps > h4 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgba(157, 23, 77, var(--tw-text-opacity));
+}
+
+.stepsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+.stepContainer {
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+  align-items: center;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.stepContainer:hover {
+  --tw-text-opacity: 1;
+  color: rgba(239, 68, 68, var(--tw-text-opacity));
+}
+
+.step {
+  box-shadow: 0 1.3px 12px -3px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(253, 242, 248, var(--tw-bg-opacity));
+}
+
+.step:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(251, 207, 232, var(--tw-bg-opacity));
+}
+
+.step > span {
+  --tw-text-opacity: 1;
+  color: rgba(157, 23, 77, var(--tw-text-opacity));
+}
+
+.MuiSvgIcon-root{
+    font-size: 2.2rem!important;
+    line-height: 2rem!important;
+}
+
+.stepContainer > h4 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
+  margin-top: 1rem;
+}
+
+.stepContainer > p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(75, 85, 99, var(--tw-text-opacity));
+  width: 83.333333%;
+}
+
+.arrow {
+    pointer-events: none;
+  }
+  
+  .arrow__path {
+    stroke: #9400D3	;
+    fill: transparent;
+    stroke-dasharray: 15 8;
+  }
+  
+  @media screen AND (max-width: 1350px) {
+    .arrow {
+      display: none;
+    }
+  }
