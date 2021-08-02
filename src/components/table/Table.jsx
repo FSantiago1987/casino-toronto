@@ -22,6 +22,7 @@ const VALUES = [
   "K",
 ];
 
+
 function Table() {
   const CARD_VALUE_MAP = {
     2: 2,
@@ -49,13 +50,16 @@ function Table() {
   let [playerCardSlot, SetPlayerCardSlot] = useState("");
   let [computerCardSlot, SetComputerCardSlot] = useState("");
 
-
   const StartGame = () => {
     const deck = new Deck();
     deck.shuffle();
     const deckMidpoint = Math.ceil(deck.numberOfCards / 2);
-    SetPlayerDeck(playerDeck = new Deck(deck.cards.slice(0, deckMidpoint)));
-    SetComputerDeck(computerDeck = new Deck(deck.cards.slice(deckMidpoint, deck.numberOfCards)));
+    SetPlayerDeck((playerDeck = new Deck(deck.cards.slice(0, deckMidpoint))));
+    SetComputerDeck(
+      (computerDeck = new Deck(
+        deck.cards.slice(deckMidpoint, deck.numberOfCards)
+      ))
+    );
     SetInRound(false);
     SetStop(false);
     cleanBeforeRound();
@@ -85,17 +89,17 @@ function Table() {
     SetInRound(true);
     const playerCard = playerDeck.pop();
     const computerCard = computerDeck.pop();
-    SetPlayerCardSlot(playerCardSlot = playerCard.createCard());
-    SetComputerCardSlot(computerCardSlot = computerCard.createCard())
+    SetPlayerCardSlot((playerCardSlot = playerCard.createCard()));
+    SetComputerCardSlot((computerCardSlot = computerCard.createCard()));
 
     updateDeckCount();
 
     if (isRoundWinner(playerCard, computerCard)) {
-      SetText("Win");
+      SetText("You Win");
       playerDeck.push(playerCard);
       playerDeck.push(computerCard);
     } else if (isRoundWinner(computerCard, playerCard)) {
-      SetText("Lose");
+      SetText("You Lose");
       computerDeck.push(playerCard);
       computerDeck.push(computerCard);
     } else {
@@ -105,57 +109,57 @@ function Table() {
     }
 
     if (isGameOver(playerDeck)) {
-      SetText("You Lose!!");
+      SetText("Player Lose War!! Better Luck Next Time");
       SetStop(true);
     } else if (isGameOver(computerDeck)) {
-      SetText("You Win!!");
+      SetText("Player Win War!! Congratulations");
       SetStop(true);
     }
   };
 
   const handleClick = () => {
     if (stop) {
-        StartGame()
-        SetAction("Start New Game");
-        return
-      }
-    
-      if (inRound) {
-        cleanBeforeRound()
-        SetAction("Hit");
-      } else {
-        flipCards()
-        SetAction("Take Cards");
-      }
-  }
+      StartGame();
+      SetAction("Draw Cards");
+      return;
+    }
+
+    if (inRound) {
+      cleanBeforeRound();
+      SetAction("Draw Cards");
+    } else {
+      flipCards();
+      SetAction("Clean Table");
+    }
+  };
 
   return (
     <div className="Table">
       <div className="Field">
-        <h1>Game</h1>
+        <h1>War Room</h1>
         <div className="ScoreField">
-            <div className="userScore">
-                <p>Player</p>
-                <p>{computerDeckNumber}</p>
-            </div>
-            <div className="computerScore">
-                <p>Computer</p>
-                <p>{playerDeckNumber}</p>
-            </div>
+          <div className="userScore">
+            <p>Player</p>
+            <p className="score">{playerDeckNumber}</p>
+          </div>
+          <div className="computerScore">
+            <p>Computer</p>
+            <p className="score">{computerDeckNumber}</p>
+          </div>
         </div>
         <div className="GameField">
           {playerCardSlot}
           {computerCardSlot}
         </div>
         <div className="result">
-            <p>{text}</p>
+          <p>{text}</p>
         </div>
         <div className="GameField">
           <Card image={CoverR} />
           <Card image={CoverB} />
         </div>
+        <button onClick={handleClick}>{action}</button>
       </div>
-      <button onClick={handleClick}>{action}</button>
     </div>
   );
 }

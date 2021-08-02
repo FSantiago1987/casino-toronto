@@ -29,7 +29,8 @@
   position: relative;
 }
 
-.navbar-menu > ul > li {
+.navbar-menu > ul > li,
+.navbar-menu-toogled > ul > li {
   text-decoration: none;
   list-style: none;
   color: goldenrod;
@@ -37,6 +38,26 @@
 
 .navbar-menu > ul > li:not(:last-child) {
   margin-right: 30px;
+}
+
+.nav-link{
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: goldenrod;
+  font-weight: 800;
+  text-shadow: 2px 2px black;
+  font-size: 1.45rem;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+  position: relative;
+  padding: 0 10px;
+  transition: 0.2s ease-in-out;
+  text-transform: uppercase;
+}
+
+.nav-link:hover{
+  color: rgb(224, 196, 103);
 }
 
 .wrapper {
@@ -47,7 +68,22 @@
   justify-content: center;
 }
 @font-face {
-    font-family: neon;
-    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+
+@media(max-width: 500px){
+  .navbar-brand{
+    height: 80px;
+    margin-top: -70px;
+  }
+  .navbar-menu-toogled{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight:500;
   }
 
+  .nav-link{
+    font-size: 1.25rem;
+  }
+}

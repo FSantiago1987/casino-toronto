@@ -26,6 +26,9 @@
 .suit-middle{
     height: 60px;
     font-size: 50px;
-    justify-content: center;
-    align-items: center;
+    margin-left: 35px;
+    margin-right: 30px;
+    margin-top: -5px;
+    justify-content: center!important;
+    align-items: center!important;
 }

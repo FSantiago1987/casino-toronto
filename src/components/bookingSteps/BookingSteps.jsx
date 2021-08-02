@@ -2,6 +2,9 @@ import React from "react";
 import Arrow, { DIRECTION, HEAD } from "react-arrows";
 import "./bookingSteps.css";
 import {AssignmentIndTwoTone, AttachMoneyTwoTone, SportsEsportsTwoTone} from '@material-ui/icons';
+import Cards from '../../assets/images/cards.png';
+import CardsLines from '../../assets/images/cardsLines.png';
+import CardsLinesR from '../../assets/images/cardsLinesR.png';
 
 const styles = {
 
@@ -17,6 +20,11 @@ function BookingSteps() {
     <div id="howItWorks" className="BookingSteps">
       <h4 className="SubTitle">How it Works</h4>
       <h2 className="Title">Our Working Steps</h2>
+      <div className="bookingSteps-icon">
+      <img src={CardsLines} alt="cards" class="cards-lines" />
+        <img src={Cards} alt="cards" class="cards-icon" />
+        <img src={CardsLinesR} alt="cards" class="cards-linesR" />
+      </div>
       <div className="stepsContainer">
         <div className="stepContainer">
           <div id="step1" className="step">

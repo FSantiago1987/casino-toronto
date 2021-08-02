@@ -4,6 +4,7 @@ import "@brainhubeu/react-carousel/lib/style.css";
 import { useMediaQuery } from "react-responsive";
 import GameCard from '../gameCard/GameCard';
 import { SCREENS } from "../../components/responsive";
+import Spades from '../../assets/images/spade.png';
 import './games.css';
 
 function Games() {
@@ -15,6 +16,7 @@ function Games() {
       thumbnailSrc:"https://images.squarespace-cdn.com/content/v1/59ea6080a803bb2f70ecbae5/1529350132152-VWJ0NHRKGK1NJGMR6PDW/AdditionWar3BetterThanHomework.jpg",
       description:
         "The objective of the game is to win all of the cards.Each player turns up a card at the same time and the player with the higher card takes both cards and puts them, face down, on the bottom of his stack.",
+        war: true
     };
   
     const game2 = {
@@ -49,7 +51,10 @@ function Games() {
       : Math.ceil(services.length / 3);
     return (
         <div className="Games" id="games">
-            <h2>Explore Our games</h2>
+            <div className="gamesTitle">
+              <img src={Spades} alt="spades card" />
+              <h2><span>E</span>xplore Our Games</h2>
+            </div>
             <div className="ServicesContainer">
             <Carousel
           value={current}

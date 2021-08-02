@@ -5,7 +5,7 @@ import "./topSection.css";
 
 function TopSection() {
   return (
-    <div className="TopSection">
+    <div className="TopSection" id="home">
       <div className="left-side">
       <div class="neon-wrapper">
         <div class="neon">Toronto </div>

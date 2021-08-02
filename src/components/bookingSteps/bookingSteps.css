@@ -2,25 +2,51 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 1.5rem;
+  padding-top: 4rem;
   padding-bottom: 1.5rem;
   width: 100%;
 }
 
 .BookingSteps > h2 {
-  font-size: 2.25rem;
+  font-size: 3rem;
   line-height: 2.5rem;
+  padding-top: 1.5rem;
+  margin-bottom: 2rem;
   --tw-text-opacity: 1;
   color: rgba(0, 0, 0, var(--tw-text-opacity));
   font-weight: 800;
 }
 
 .BookingSteps > h4 {
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   line-height: 1.75rem;
   font-weight: 600;
   --tw-text-opacity: 1;
   color: rgba(157, 23, 77, var(--tw-text-opacity));
+}
+
+.bookingSteps-icon{
+  display: flex;
+}
+
+
+
+.cards-icon {
+  width: auto;
+  height: 70px;
+  margin-bottom: 3rem!important;
+  margin:0 0.3rem;
+}
+
+.cards-lines{
+  width: auto;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.cards-linesR{
+  width: auto;
+  height: 50px;
 }
 
 .stepsContainer {
@@ -102,5 +128,41 @@
   @media screen AND (max-width: 1350px) {
     .arrow {
       display: none;
+    }
+  }
+
+  @media(max-width: 500px){
+    .BookingSteps{
+      margin-top: 2rem;
+    }
+    .stepContainer{
+      margin-bottom: 2rem;
+    }
+    .cards-icon {
+      width: auto;
+      height: 40px;
+      margin:0 0.3rem!important;
+    }
+    
+    .cards-lines{
+      width: auto;
+      height: 30px;
+      margin-top: 10px;
+    }
+    
+    .cards-linesR{
+      width: auto;
+      height: 30px;
+    }
+    .BookingSteps > h2{
+      font-size: 2.25rem;
+    }
+
+    .BookingSteps > h4{
+      font-size: 1.25rem;
+    }
+    .BookingSteps {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
     }
   }
