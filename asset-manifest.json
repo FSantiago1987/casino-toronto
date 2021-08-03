@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/casino-toronto/static/css/main.44e258d2.chunk.css",
+    "main.css": "/casino-toronto/static/css/main.a6ad50d0.chunk.css",
     "main.js": "/casino-toronto/static/js/main.c49020d0.chunk.js",
     "main.js.map": "/casino-toronto/static/js/main.c49020d0.chunk.js.map",
     "runtime-main.js": "/casino-toronto/static/js/runtime-main.80c8a2b2.js",
@@ -10,7 +10,7 @@
     "static/js/2.7e0193e1.chunk.js.map": "/casino-toronto/static/js/2.7e0193e1.chunk.js.map",
     "index.html": "/casino-toronto/index.html",
     "static/css/2.08156fdc.chunk.css.map": "/casino-toronto/static/css/2.08156fdc.chunk.css.map",
-    "static/css/main.44e258d2.chunk.css.map": "/casino-toronto/static/css/main.44e258d2.chunk.css.map",
+    "static/css/main.a6ad50d0.chunk.css.map": "/casino-toronto/static/css/main.a6ad50d0.chunk.css.map",
     "static/js/2.7e0193e1.chunk.js.LICENSE.txt": "/casino-toronto/static/js/2.7e0193e1.chunk.js.LICENSE.txt",
     "static/media/cardsLines.fafdb2c4.png": "/casino-toronto/static/media/cardsLines.fafdb2c4.png",
     "static/media/cardsLinesR.a409f5d7.png": "/casino-toronto/static/media/cardsLinesR.a409f5d7.png",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.80c8a2b2.js",
     "static/css/2.08156fdc.chunk.css",
     "static/js/2.7e0193e1.chunk.js",
-    "static/css/main.44e258d2.chunk.css",
+    "static/css/main.a6ad50d0.chunk.css",
     "static/js/main.c49020d0.chunk.js"
   ]
 }
