@@ -115,28 +115,28 @@ function Footer() {
           <FacebookShareButton
             url={"https://FSantiago1987.github.io/casino-toronto"}
             quote={"Toronto Casino - Come here and become the winner"}
-            hashtag="#DoubleOrNothing"
+            hashtag="#HackathonMintBean "
           >
             <FacebookIcon className="mx-3" size={30} />
           </FacebookShareButton>
           <TwitterShareButton
             url={"https://FSantiago1987.github.io/casino-toronto"}
             quote={"Toronto Casino - Come here and become the winner"}
-            hashtag="#DoubleOrNothing"
+            hashtag="#HackathonMintBean"
           >
             <TwitterIcon className="mx-3" size={30} />
           </TwitterShareButton>
           <LinkedinShareButton
             url={"https://FSantiago1987.github.io/casino-toronto"}
             quote={"Toronto Casino - Come here and become the winner"}
-            hashtag="#DoubleOrNothing"
+            hashtag="#HackathonMintBean"
           >
             <LinkedinIcon className="mx-3" size={30} />
           </LinkedinShareButton>
           <WhatsappShareButton
             url={"https://FSantiago1987.github.io/casino-toronto"}
             quote={"Toronto Casino - Come here and become the winner"}
-            hashtag="#DoubleOrNothing"
+            hashtag="#HackathonMintBean"
           >
             <WhatsappIcon className="mx-3" size={30} />
           </WhatsappShareButton>
