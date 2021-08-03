@@ -41,7 +41,7 @@ function Table() {
   };
   const [computerDeckNumber, setComputerDeckNumber] = useState("");
   const [playerDeckNumber, setPlayerDeckNumber] = useState("");
-  const [text, SetText] = useState("Hello");
+  const [text, SetText] = useState("Let's Have Some Fun!!!");
   const [action, SetAction] = useState("Start New Game");
   const [stop, SetStop] = useState(true);
   let [playerDeck, SetPlayerDeck] = useState("");

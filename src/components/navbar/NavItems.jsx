@@ -16,7 +16,7 @@ function NavItems() {
               <Link
                 smooth={true}
                 to="home"
-                offset={-110}
+                offset={-200}
                 className="nav-link"
                 aria-current="page"
                 href="#"
@@ -28,7 +28,7 @@ function NavItems() {
               <Link
                 smooth={true}
                 to="about"
-                offset={-110}
+                offset={0}
                 className="nav-link"
                 aria-current="page"
                 href="#"
@@ -39,8 +39,8 @@ function NavItems() {
             <li>
               <Link
                 smooth={true}
-                to="about"
-                offset={-110}
+                to="games"
+                offset={0}
                 className="nav-link"
                 aria-current="page"
                 href="#"
