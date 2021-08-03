@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/casino-toronto/static/css/main.44e258d2.chunk.css",
+    "main.js": "/casino-toronto/static/js/main.303e6fd5.chunk.js",
+    "main.js.map": "/casino-toronto/static/js/main.303e6fd5.chunk.js.map",
+    "runtime-main.js": "/casino-toronto/static/js/runtime-main.80c8a2b2.js",
+    "runtime-main.js.map": "/casino-toronto/static/js/runtime-main.80c8a2b2.js.map",
+    "static/css/2.08156fdc.chunk.css": "/casino-toronto/static/css/2.08156fdc.chunk.css",
+    "static/js/2.7e0193e1.chunk.js": "/casino-toronto/static/js/2.7e0193e1.chunk.js",
+    "static/js/2.7e0193e1.chunk.js.map": "/casino-toronto/static/js/2.7e0193e1.chunk.js.map",
+    "index.html": "/casino-toronto/index.html",
+    "static/css/2.08156fdc.chunk.css.map": "/casino-toronto/static/css/2.08156fdc.chunk.css.map",
+    "static/css/main.44e258d2.chunk.css.map": "/casino-toronto/static/css/main.44e258d2.chunk.css.map",
+    "static/js/2.7e0193e1.chunk.js.LICENSE.txt": "/casino-toronto/static/js/2.7e0193e1.chunk.js.LICENSE.txt",
+    "static/media/cardsLines.fafdb2c4.png": "/casino-toronto/static/media/cardsLines.fafdb2c4.png",
+    "static/media/cardsLinesR.a409f5d7.png": "/casino-toronto/static/media/cardsLinesR.a409f5d7.png",
+    "static/media/header.css": "/casino-toronto/static/media/casino.e7285332.jpeg",
+    "static/media/comingSoon.959ee1b5.jpg": "/casino-toronto/static/media/comingSoon.959ee1b5.jpg",
+    "static/media/coverB.fad14112.jpg": "/casino-toronto/static/media/coverB.fad14112.jpg",
+    "static/media/coverR.e1f016c2.jpg": "/casino-toronto/static/media/coverR.e1f016c2.jpg",
+    "static/media/table.css": "/casino-toronto/static/media/digital-7.93911ab1.ttf",
+    "static/media/logoCasino.ceaf962e.png": "/casino-toronto/static/media/logoCasino.ceaf962e.png",
+    "static/media/spade.4ae2041a.png": "/casino-toronto/static/media/spade.4ae2041a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80c8a2b2.js",
+    "static/css/2.08156fdc.chunk.css",
+    "static/js/2.7e0193e1.chunk.js",
+    "static/css/main.44e258d2.chunk.css",
+    "static/js/main.303e6fd5.chunk.js"
+  ]
+}
